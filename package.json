@@ -53,6 +53,7 @@
     "sass": "1.77.4",
     "stylelint": "16.6.1",
     "stylelint-config-htmlacademy": "4.2.3",
+    "ttf2woff2": "^6.0.1",
     "w3c-html-validator": "1.8.1"
   }
 }

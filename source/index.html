@@ -2,7 +2,7 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="UTF-8">
-    <title>Название проекта</title>
+    <title>Название</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="preload" href="#" type="font/woff2" as="font">
     <link rel="stylesheet" href="styles/styles.css">
@@ -11,7 +11,15 @@
   <body class="page__body">
     <header class="header">Шапка</header>
     <main>
-      <h1>Страница для старта</h1>
+      <h1>Заголовок</h1>
+      <picture>
+        <source media="(min-width: 1440px)" type="image/webp" srcset="images/desktop@1x.webp 1x, images/desktop@2x.webp 2x" width="" height="">
+        <source media="(min-width: 768px)" type="image/webp" srcset="images/tablet@1x.webp 1x, images/tablet@2x.webp 2x" width="" height="">
+        <source type="image/webp" srcset="images/mobile@1x.webp 1x, images/mobile@2x.webp 2x" width="" height="">
+        <source media="(min-width: 1440px)" type="image/jpg" srcset="images/desktop@1x.jpg 1x, images/desktop@2x.jpg 2x" width="" height="">
+        <source media="(min-width: 768px)" type="image/jpg" srcset="images/tablet@1x.jpg 1x, images/tablet@2x.jpg 2x" width="" height="">
+        <img class="image" src="images/mobile@1x.jpg" srcset="images/mobile@2x.jpg 2x" width="" height="" alt=".">
+      </picture>
     </main>
   </body>
 </html>
